@@ -1,3 +1,5 @@
+systemctl start postgresql
+
 disable firewall
 
 	netsh advfirewall show allprofiles
@@ -334,3 +336,14 @@ METASPLOIT modules
 		set RHOSTS 192.168.1.0/24
 		
 		
+SSH
+	mkdir /etc/ssh/default_keys
+	mv /etc/ssh/ssh_host_* /etc/ssh/default_keys/
+	dpkg-reconfigure openssh-server
+	systemctl start ssh.socket
+	useradd cdx
+	passwd cdx
+	ssh -L 1234:localhost:5432 cdx@192.168.254.132
+	cat /usr/share/metasploit-framework/config/database.yml
+	db_connect msf:password@127.0.0.1:1234/msf
+	

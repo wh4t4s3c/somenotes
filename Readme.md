@@ -347,4 +347,3 @@ SSH
 	cat /usr/share/metasploit-framework/config/database.yml
 	db_connect msf:password@127.0.0.1:1234/msf
 	
-.

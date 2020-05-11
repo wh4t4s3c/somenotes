@@ -1,0 +1,20 @@
+{"entry":[    
+    {	
+		"FileName":"c:\\temp\\Calc.exe", 
+		"InstallName":"Graphviz", 
+		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6056",
+		"Wait":1
+	},
+    {	
+		"FileName":"c:\\temp\\Calc.exe", 
+		"InstallName":"Graphviz2", 
+		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6056",
+		"Wait":1
+	},
+    {	
+		"FileName":"c:\\temp\\Calc.exe", 
+		"InstallName":"Graphviz", 
+		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6057",
+		"Wait":1
+	}
+]}  

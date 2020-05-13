@@ -1,20 +1,20 @@
 {"entry":[    
     {	
 		"FileName":"c:\\temp\\Calc.exe", 
-		"InstallName":"Graphviz", 
-		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6056",
+		"InstallName":"Google Chrome", 
+		"Hash":"A103A57D50B32469C5811E2808F021ADF9D9220093B540B8A9C83B5C821D370E",
 		"Wait":1
 	},
     {	
 		"FileName":"c:\\temp\\Calc.exe", 
-		"InstallName":"Graphviz2", 
-		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6056",
+		"InstallName":"Google Chrome2", 
+		"Hash":"A103A57D50B32469C5811E2808F021ADF9D9220093B540B8A9C83B5C821D370E",
 		"Wait":1
 	},
     {	
 		"FileName":"c:\\temp\\Calc.exe", 
-		"InstallName":"Graphviz", 
-		"Hash":"9BC9CBA71D8C9948056E8198C486931EF547A7EFA9B1362511F00E81878D6057",
+		"InstallName":"Google Chrome", 
+		"Hash":"A103A57D50B32469C5811E2808F021ADF9D9220093B540B8A9C83B5C821D370F",
 		"Wait":1
 	}
 ]}  

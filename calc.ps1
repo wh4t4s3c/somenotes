@@ -1,1 +1,1 @@
-Start-Process 'calc.exe'
+Add-Type -AssemblyName PresentationCore,PresentationFramework;[System.Windows.MessageBox]::Show('Hello')

